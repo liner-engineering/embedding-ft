@@ -1,0 +1,27 @@
+FlagEmbedding==1.2.5
+beir==2.0.0
+numpy==1.26.4
+tqdm==4.65.0
+evaluate==0.4.1
+google-cloud-bigquery>=3.10.0
+google-cloud-bigquery-storage>=2.20.0
+openai>=1.0.0
+pydantic>=2.0.0
+orjson>=3.11.4
+dotenv
+aiofiles>=23.0.0
+
+# for training
+accelerate>=0.30.0
+datasets
+transformers>=4.40.0
+pyarrow==12.0.0
+omegaconf==2.3.0
+peft==0.8.2
+sentencepiece==0.2.0
+
+# for evaluation
+mteb>=1.12.0
+torch>=2.0.0
+FlagEmbedding
+xformers

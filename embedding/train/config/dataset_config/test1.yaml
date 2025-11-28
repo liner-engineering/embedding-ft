@@ -1,0 +1,9 @@
+use_all: False # if True, use all data in the dataset. neglect num_total_data and data_ratio
+num_total_data: 100
+allow_duplicate: False
+datasets:
+  name: [korquad1, korquad2]
+  data_path: [data/korquad1.0/dataset.json, data/korquad2.0/dataset.json]
+  data_ratio: [0.7, 0.3]
+
+# if num each dataset is smaller than num_data, then it will be repeated with warning

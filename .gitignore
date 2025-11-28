@@ -1,0 +1,44 @@
+# Environment and credentials
+.env
+.env.*
+
+# IDE and editor
+.flake8
+.python-version
+.vscode/
+.idea/
+
+# Directories
+checkpoints/
+logs/
+results/
+outputs/
+experiment_logs/
+embedding/data/outputs/
+
+# Data files
+*.json
+*.jsonl
+*.tsv
+*.csv
+*.pkl
+*.parquet
+
+# Binary files
+*.bin
+*.ftz
+
+# Python
+*.pyc
+__pycache__/
+*.egg-info/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Cache
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
